@@ -97,5 +97,17 @@
     .noAuthPage form{
         width: 80vw;
     }
+    .landingPageElement{
+      width: 80%;
+    }
+    .welcomeSection .contentBox{
+      flex-basis: 100%;
+    }
+    .welcomeSection img {
+      display: none;
+    }
+    .welcomeSpan{
+      display: none;
+    }
     
   }

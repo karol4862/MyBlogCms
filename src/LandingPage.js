@@ -44,8 +44,8 @@ export class LandingPage extends Component {
                     <p>
                     This site is my own CMS based on Firebase. <br/>
                     Feel free to put your own post here and write what could I change in this site, or send a funny meme.<br/>
-                    Go to the subpage <span className="yellow">/admin</span>, then sing in by use admin@admin and password admin123, and send a post.
-                    You can atach the image, write the title and the text.
+                    Go to the subpage <span className="yellow">/admin</span>, then sing in by use admin@admin.com and password admin123, and send a post.
+                    You can atach the image, write the title and text.
                     </p>
                 </div>
                 <img src={pcImage} alt="pcImage"/>
