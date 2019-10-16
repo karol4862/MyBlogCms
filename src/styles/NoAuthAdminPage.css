@@ -1,0 +1,25 @@
+.noAuthPage{
+    height: calc(100vh - 4rem);
+    background-color: rgba(26, 26, 26, 0.85);
+}
+.noAuthPage form{
+    width: 30vw;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.noAuthPage form input{
+    padding: 5px 10px;
+    background-color: rgb(17, 17, 17);
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin: 10px 20%;
+    font-size: 1.3rem;
+    color: yellow;
+    text-align: center;
+    transition: .3s;
+}
+.noAuthPage form input:focus{
+    margin: 10px 0;
+}

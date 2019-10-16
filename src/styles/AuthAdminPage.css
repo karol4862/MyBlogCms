@@ -1,0 +1,70 @@
+.authPage{
+    min-height: calc(100vh - 4rem);
+    background-color: rgba(26, 26, 26, 0.85);
+    position: relative;
+}
+.authPage form{
+    width: 30vw;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.authPage form input, .inputFileCustom, textarea{
+    padding: 5px 10px;
+    background-color: rgb(17, 17, 17);
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 1.3rem;
+    color: yellow;
+}
+.inputFileCustom{
+    cursor:pointer;
+}
+.authPage form input[type="text"]{
+    text-align: center;
+    margin: 0 25%;
+    transition: .3s;
+}
+.authPage form input[type="text"]:focus{
+    margin: 0 0;
+}
+input[type="file"]{
+    display: none;
+}
+textarea{
+    max-width: 100%;
+    min-height: 10rem;
+}
+.buttonPage{
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgb(12, 12, 12);
+    border: 2px yellow solid;
+    color: yellow;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: .9rem;
+}
+.singOut{
+    position: absolute;
+    top: 2%;
+    right:2%;
+}
+.listFirebase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    color: rgb(131, 131, 131);
+}
+.listFirebase li{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    background-color: rgba(29, 29, 29, 0.85);
+    padding: 10px 20px;
+    border: yellow 2px solid;
+}

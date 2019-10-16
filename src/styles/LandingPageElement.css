@@ -1,0 +1,32 @@
+.landingPageElement{
+    width: 50%;
+    padding: 40px 15px;
+    margin: 50px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    background-color: rgba(26, 26, 26, 0.85);
+}
+.landingPageElement img{
+    width: 40%; 
+    align-self: center;
+    box-shadow: 2px 2px 8px black;
+}
+.landingPageElement h2{
+    padding: 20px 0 10px 0;
+    border-bottom: 2px yellow solid;
+}
+.landingPageElement p{
+    padding: 20px 10px 10px 10px;
+}
+.landingPageElement button{
+    width: 30%;
+    align-self: center;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: rgb(12, 12, 12);
+    border: 2px yellow solid;
+    color: yellow;
+    cursor: pointer;
+}

@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import AdminPage from './AdminPage';
+import LandingPage from './LandingPage';
+import './styles/App.css';
+import './styles/responsive.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export class App extends Component {
+  render() {
+    return (
+      <Router>
+      <div className="App">
+        <header> <h1> My Front-end <span className="yellow">  Blog </span> </h1></header>
+        
+        <Route path='/admin' component={AdminPage}/>
+        <Route path='/' exact component={LandingPage}/>
+      </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
+
